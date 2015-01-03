@@ -1,13 +1,17 @@
 {
   "name": "scotland-yard",
   "version": "0.0.0",
-  "description": "",
+  "description": "A JavaScript library for handling the rules of Scotland Yard the board game",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
-  "author": "",
+  "author": "Jonathan Birkholz @rookieone",
   "license": "ISC",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/RookieOne/scotland-yard-js.git"
+  },
   "dependencies": {
     "mocha": "^2.1.0",
     "underscore": "^1.7.0",
