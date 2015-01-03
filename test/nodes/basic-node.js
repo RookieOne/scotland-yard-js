@@ -10,7 +10,7 @@ describe("Node #52", function() {
   });
   it("should not have incorrect connections", function() {
     var node = game.nodes[52];
-    var toNode40 = _.findWhere(node.connections, { number: 11 });
-    should.not.exist(toNode40);
+    var toNode11 = _.findWhere(node.connections, { number: 11 });
+    should.not.exist(toNode11);
   });
 });
