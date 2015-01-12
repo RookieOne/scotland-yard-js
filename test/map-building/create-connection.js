@@ -11,5 +11,11 @@ describe("createConnection", function() {
 
     var connection = map.connections[0];
     should(map.connections.length).equal(1);
+
+    var fromNode = map.nodes[10];
+    should(fromNode.connections[0].number).equal(20);
+
+    var toNode = map.nodes[20];
+    should(toNode.connections[0].number).equal(10);
   });
 });
