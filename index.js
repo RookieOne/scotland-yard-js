@@ -1,6 +1,5 @@
-var nodes = require("./lib/nodes.js");
-
-module.exports.nodes = nodes;
+var map = require("./lib/map.js");
+module.exports.map = map;
 
 var canTravelFx = require("./lib/can-travel.js");
 module.exports.canTravel = canTravelFx;
